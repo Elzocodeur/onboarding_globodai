@@ -218,7 +218,7 @@ class _TaskStatsWidgetState extends State<TaskStatsWidget>
         ),
         _StatItem(
           icon: Icons.check_circle,
-          label: 'Terminées',
+          label: 'complétée',
           valueAnimation: _numberAnimations[1],
           color: Colors.green,
         ),
@@ -229,7 +229,7 @@ class _TaskStatsWidgetState extends State<TaskStatsWidget>
         ),
         _StatItem(
           icon: Icons.pending,
-          label: 'En attente',
+          label: 'non complétée',
           valueAnimation: _numberAnimations[2],
           color: Colors.orange,
         ),
